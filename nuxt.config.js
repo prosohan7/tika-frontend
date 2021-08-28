@@ -42,7 +42,7 @@ export default {
   ],
 
   axios: {
-    baseURL: 'http://tika.test/api'
+    baseURL: 'http://tika.com/api'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
