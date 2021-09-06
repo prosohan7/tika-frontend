@@ -19,6 +19,7 @@ export default {
 		testBackendRequest() {
 			this.$axios.get('/test').then(res => {
 				console.log(res.data);
+				this.apiValue = res.data;
 			});
 		}
 	}
